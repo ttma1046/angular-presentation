@@ -2,110 +2,21 @@
 
 
 class AppComponent {
-  public chandlersname = "Chandler"
+//   chandlersname = "Chandler";
+  constructor() {
+    this.chandlersname = "Chandler";
+  }
 }
 
 AppComponent.annotations = [
   new ng.core.Component({
     selector: 'app-root',
-    templateUrl: `<h1>Hello Angular with one Javascript</h1>
+    template: `<h1>Hello {{chandlersname}}, this is Angular with one Javascript file</h1>
     <div>Learning Requirements: </div>
     <ul>
-        <li>{{chandlersname}}Javascript/ECMAScript 5</li>
+        <li>Javascript/ECMAScript 5</li>
         <li>ECMAScript 2015/6, ESM (<a href="http://babeljs.io/">babeljs.io</a>)
         <li>Typescript</li>
-        *ngIf
-        *ngFor
-        <li>nodejs/npm (npm install, package.json, npm script)</li>
-        <li>Tooling: Systemjs, Webpack, Rollup ......</li>
-        <li><a href="http://angular.io/">Angular.io</a></li>
-    </ul>
-    `
-  })
-];
-
-class AppComponent {
-  public chandlersname = "Chandler"
-}
-
-AppComponent.annotations = [
-  new ng.core.Component({
-    selector: 'app-root',
-    templateUrl: `<h1>Hello Angular with one Javascript</h1>
-    <div>Learning Requirements: </div>
-    <ul>
-        <li>{{chandlersname}}Javascript/ECMAScript 5</li>
-        <li>ECMAScript 2015/6, ESM (<a href="http://babeljs.io/">babeljs.io</a>)
-        <li>Typescript</li>
-        *ngIf
-        *ngFor
-        <li>nodejs/npm (npm install, package.json, npm script)</li>
-        <li>Tooling: Systemjs, Webpack, Rollup ......</li>
-        <li><a href="http://angular.io/">Angular.io</a></li>
-    </ul>
-    `
-  })
-];
-
-class AppComponent {
-  public chandlersname = "Chandler"
-}
-
-AppComponent.annotations = [
-  new ng.core.Component({
-    selector: 'app-root',
-    templateUrl: `<h1>Hello Angular with one Javascript</h1>
-    <div>Learning Requirements: </div>
-    <ul>
-        <li>{{chandlersname}}Javascript/ECMAScript 5</li>
-        <li>ECMAScript 2015/6, ESM (<a href="http://babeljs.io/">babeljs.io</a>)
-        <li>Typescript</li>
-        *ngIf
-        *ngFor
-        <li>nodejs/npm (npm install, package.json, npm script)</li>
-        <li>Tooling: Systemjs, Webpack, Rollup ......</li>
-        <li><a href="http://angular.io/">Angular.io</a></li>
-    </ul>
-    `
-  })
-];
-class AppComponent {
-  public chandlersname = "Chandler"
-}
-
-AppComponent.annotations = [
-  new ng.core.Component({
-    selector: 'app-root',
-    templateUrl: `<h1>Hello Angular with one Javascript</h1>
-    <div>Learning Requirements: </div>
-    <ul>
-        <li>{{chandlersname}}Javascript/ECMAScript 5</li>
-        <li>ECMAScript 2015/6, ESM (<a href="http://babeljs.io/">babeljs.io</a>)
-        <li>Typescript</li>
-        *ngIf
-        *ngFor
-        <li>nodejs/npm (npm install, package.json, npm script)</li>
-        <li>Tooling: Systemjs, Webpack, Rollup ......</li>
-        <li><a href="http://angular.io/">Angular.io</a></li>
-    </ul>
-    `
-  })
-];
-class AppComponent {
-  public chandlersname = "Chandler"
-}
-
-AppComponent.annotations = [
-  new ng.core.Component({
-    selector: 'app-root',
-    templateUrl: `<h1>Hello Angular with one Javascript</h1>
-    <div>Learning Requirements: </div>
-    <ul>
-        <li>{{chandlersname}}Javascript/ECMAScript 5</li>
-        <li>ECMAScript 2015/6, ESM (<a href="http://babeljs.io/">babeljs.io</a>)
-        <li>Typescript</li>
-        *ngIf
-        *ngFor
         <li>nodejs/npm (npm install, package.json, npm script)</li>
         <li>Tooling: Systemjs, Webpack, Rollup ......</li>
         <li><a href="http://angular.io/">Angular.io</a></li>
@@ -122,9 +33,7 @@ AppModule.annotations = [
       ng.platformBrowser.BrowserModule,
     ],
     declarations: [
-      AppComponent,
-      App2Component
-
+      AppComponent
     ],
     bootstrap: [
       AppComponent,

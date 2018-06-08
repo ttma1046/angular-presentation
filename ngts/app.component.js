@@ -20,7 +20,6 @@ AppComponent = __decorate([
         <li>nodejs/npm (npm install, package.json, npm script)</li>
         <li>Tooling: Systemjs, Webpack, Rollup ......</li>
         <li><a href="http://angular.io/">Angular.io</a></li>
-
     </ul>
     `,
     })

@@ -106,6 +106,9 @@ https://johnpapa.net/content/images/2016/05/6es5-es2015-ts.gif
 
 npm install @angular/core@4.1.3 @angular/common@4.1.3 @angular/compiler@4.1.3 @angular/platform-browser@4.1.3 @angular/platform-browser-dynamic@4.1.3 rxjs@5.4.0 zone.js@0.8.4 --save
 
+import { platformNativeScriptDynamic } from "nativescript-angular/platform";
+
+
 npm install webpack --save-dev
 npm install uglify-es --save-dev
 npm install typescript --save-dev

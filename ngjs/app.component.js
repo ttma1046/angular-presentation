@@ -4,7 +4,7 @@ class AppComponent {
 AppComponent.annotations = [
   new ng.core.Component({
     selector: 'app-root',
-    template: `<h1>Hello Angular with a few Javascript</h1>
+    template: `<h1>Hello Angular with a few Javascript files</h1>
     <div>Learning Requirements:</div>
     <ul>
         <li>Javascript/ECMAScript 5</li>

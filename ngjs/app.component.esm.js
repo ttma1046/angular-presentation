@@ -4,7 +4,7 @@ AppComponent.annotations = [
   new ng.core.Component({
     selector: 'app-root',
     template: `
-    <h1>Hello Angular with ESM</h1>
+    <h1>Hello Angular with EcmaScript Module Loading</h1>
     <div>Learning Requirements:</div>
     <ul>
         <li>Javascript/ECMAScript 5</li>
